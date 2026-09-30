@@ -1,0 +1,29 @@
+REST Y HTTP
+
+REST (Representational State Transfer) es un estilo arquitectónico para
+diseñar servicios web basados en el protocolo HTTP.
+
+Un servicio REST expone recursos identificados mediante URLs.
+
+HTTP define varios métodos o verbos para operar sobre esos recursos.
+
+El método GET se utiliza para consultar o recuperar información sin
+modificar el estado del servidor.
+
+El método POST se utiliza para crear un nuevo recurso en el servidor.
+
+El método PUT se utiliza para actualizar completamente un recurso existente.
+
+El método DELETE se utiliza para eliminar un recurso identificado por su URL.
+
+Las respuestas HTTP incluyen un código de estado que indica el resultado
+de la operación, como 200 (éxito), 201 (creado), 404 (no encontrado)
+o 500 (error del servidor).
+
+JSON (JavaScript Object Notation) es un formato de texto ligero utilizado
+comúnmente para el intercambio de datos entre cliente y servidor en
+servicios REST.
+
+Una API REST bien diseñada debe ser stateless, es decir, cada solicitud
+del cliente debe contener toda la información necesaria para ser procesada,
+sin depender del estado guardado en solicitudes anteriores.
